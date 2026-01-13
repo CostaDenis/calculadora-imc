@@ -43,6 +43,11 @@ jobs:
       - name: Publish .NET
         run: dotnet publish Imc.csproj -c:Release -o docs --nologo
 
+      - name: Replace index.html for GitHub Pages
+        run: |
+          rm docs/wwwroot/index.html
+          cp docs/wwwroot/index.production.html docs/wwwroot/index.html
+
       - name: Copy index.html to 404.html
         run: cp docs/wwwroot/index.html docs/wwwroot/404.html
 
