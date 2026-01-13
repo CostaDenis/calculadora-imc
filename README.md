@@ -40,7 +40,9 @@ Este projeto utiliza:
 
 - **.NET 9.0**
 - **Blazor WebAssembly**
-- **HTML / CSS**
+- **HTML**
+- **CSS**
+- **Javascript**
 - **LocalStorage** (persistência local no navegador)
 - **PWA (Progressive Web App)**  
 
