@@ -59,7 +59,7 @@
     {
         AppState.History.Add(_model);
         await _localStorage.SetItemAsync("data", AppState.History);
-        AppState.NotifyChanges(_model, null);
+        AppState.NotifyChanges(_model, EventArgs.Empty);
         _model = new();
     }
 }

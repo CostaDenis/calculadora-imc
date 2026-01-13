@@ -1,0 +1,31 @@
+.about {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    line-height: 1.6;
+}
+
+.about h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #1f2937;
+}
+
+.about h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #111827;
+}
+
+.about p {
+    margin-bottom: 0.75rem;
+    color: #374151;
+}
+
+.formula {
+    background-color: #f3f4f6;
+    padding: 0.6rem;
+    border-radius: 6px;
+    font-weight: 600;
+    text-align: center;
+}
